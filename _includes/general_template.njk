@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Border collies Fox & Artos</title>
+
+	<!-- Google Fonts: Raleway 400, Open Sans 400(i)/700(i) -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script:wght@500&family=Khand:wght@300&display=swap" rel="stylesheet">
+
+
+	<!-- Moje CSS -->
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+
+	<div class="wrapper">
+
+      
+
+
+		<header class="header">
+
+            
+				<div class="header__top">
+					<img class="header__photo" src="/images/header_image2.png" alt="Fox">
+					<div class="header__logo">Border collies Fox & Artos</div>
+					<img class="header__photo" src="/images/header_artos.png" alt="Artos">
+
+				</div>
+
+					<div class="header__bottom">
+
+				<nav class="menu">
+
+					<input type="checkbox" class="menu__checkbox" id="menu-checkbox">
+
+					<label for="menu-checkbox" class="menu__toggler">☰ MENU</label>
+
+					<ul class="menu__list">
+						<li class="menu__item"><a href="/" class="menu__link">ÚVOD</a></li>
+                        <li class="menu__item"><a href="/novinky/" class="menu__link">NOVINKY</a></li>
+						<li class="menu__item"><a href="/omne/" class="menu__link">O MNĚ</a></li>
+						<li class="menu__item"><a href="/fox/" class="menu__link">FOX</a></li>
+						<li class="menu__item"><a href="/artos/" class="menu__link">ARTOS</a></li>
+						<li class="menu__item"><a href="/kontakt/" class="menu__link">KONTAKT</a></li>
+					</ul>
+				</nav>
+			</div>
+
+	
+
+		</header>
+
+<main class="main">
+
+{{ content | safe }}
+
+</main>
+
+
+<footer class="footer">
+    
+
+    <div class="footer__copyright">
+        &copy; 2023, Eva Kubínková
+
+
+    </div>
+
+
+
+</footer>
+
+
+</div><!-- .wrapper -->
+</body>
+</html>  
